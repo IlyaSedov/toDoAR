@@ -3,8 +3,8 @@
 open terminal in directory 'toDoAR' 
 
 enter 
-   
-rails console 
+
+      rails console 
 
 
 ## List of available commands 
