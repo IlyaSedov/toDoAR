@@ -3,7 +3,7 @@
 open terminal in directory 'toDoAR' 
 
 enter 
-  
+   
 rails console 
 
 
