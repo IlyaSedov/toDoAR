@@ -4,7 +4,12 @@ open terminal in directory 'toDoAR'
 
 enter 
 
+<<<<<<< HEAD
     rails console 
+=======
+      rails console 
+
+>>>>>>> 1af5f36ee88c0deb310ddfd825cfe8a2e56f7bab
 
 ## List of available commands 
 
