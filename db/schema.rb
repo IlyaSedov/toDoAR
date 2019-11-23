@@ -18,12 +18,5 @@ ActiveRecord::Schema.define(version: 2019_11_23_105405) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-
-  create_table "to_do_ars", force: :cascade do |t|
-    t.string "task"
-    t.boolean "done"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
+  
 end

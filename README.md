@@ -4,58 +4,60 @@ open terminal in directory 'toDoAR'
 
 enter 
 
-rails console 
-
-require 'to_do_ar' 
+    rails console 
 
 ## List of available commands 
 
 Create new task 
 ```ruby 
-ToDoAr.createTask('task text') 
+Task.create_task('task text') 
 ``` 
 
 Update task 
 ```ruby 
-ToDoAr.updateTask(id, 'updated text') 
+Task.edit(id, 'updated text') 
 ``` 
 
-Check 
+Finish task
 ```ruby 
-ToDoAr.check(id) 
+Task.finish(id) 
+``` 
+Mark as not completed task
+```ruby 
+Task.unfinish(id) 
 ``` 
 
 Check all tasks 
 ```ruby 
-ToDoAr.checkAll 
+Task.check_all 
 ``` 
 
 Delete task 
 ```ruby 
-ToDoAr.del(id) 
+Task.delete(id) 
 ``` 
 
 Delete complited tasks 
 ```ruby 
-ToDoAr.deleteComplited 
+Task.delete_complited 
 ``` 
 
 Delete all tasks 
 ```ruby 
-ToDoAr.deleteAll 
+Task.delete_all 
 ``` 
 
 Show all tasks 
 ```ruby 
-ToDoAr.showTasks 
+Task.all
 ``` 
 
 Show active tasks 
 ```ruby 
-ToDoAr.outputUnfinished 
+Task.unfinished 
 ``` 
 
 Show complited tasks 
 ```ruby 
-ToDoAr.outputFinished 
+Task.finished 
 ```
